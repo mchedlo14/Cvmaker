@@ -2,4 +2,22 @@
   width: 50%;
   height: 100;
   background-color: #F9F9F9;
+  position: relative;
+}
+.first-form-wrapper .nav-icon-wrapper {
+  width: 40px;
+  height: 40px;
+  background: #FFF;
+  border-radius: 50%;
+  position: absolute;
+  top: 45px;
+  left: 48px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+.first-form-wrapper .nav-icon-wrapper img {
+  width: 9px;
+  height: 16px;
 }/*# sourceMappingURL=FirstForm.css.map */
