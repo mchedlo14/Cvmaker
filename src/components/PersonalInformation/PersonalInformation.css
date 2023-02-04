@@ -1,1 +1,5 @@
-/*# sourceMappingURL=PersonalInformation.css.map */
+.personal-information-wrapper {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+}/*# sourceMappingURL=PersonalInformation.css.map */

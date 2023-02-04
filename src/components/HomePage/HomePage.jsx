@@ -6,7 +6,6 @@ import redberryAgency from '../../assets/home-page-logo.svg';
 import { useNavigate } from 'react-router-dom';
 const HomePage = () => {
     const Router = useNavigate();
-    
 
   return (
     <div className='home-page-wrapper'>

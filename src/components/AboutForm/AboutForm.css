@@ -1,0 +1,29 @@
+.about-from-wrapper {
+  max-width: 798px;
+  width: 80%;
+  height: 42px;
+  margin: 0 auto;
+  margin-top: 47px;
+  display: flex;
+  align-content: center;
+  justify-content: space-between;
+  border-bottom: 1px solid #1A1A1A;
+}
+.about-from-wrapper h2 {
+  font-family: "Helvetica Neue";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 29px;
+  color: #1A1A1A;
+}
+.about-from-wrapper p {
+  font-family: "Helvetica Neue";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  text-align: right;
+  color: #1A1A1A;
+  padding-top: 8px;
+}/*# sourceMappingURL=AboutForm.css.map */
