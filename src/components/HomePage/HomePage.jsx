@@ -3,7 +3,11 @@ import './HomePage.css';
 import backgroundImg from '../../assets/shutterstock_21897737431.png';
 import redberryLogo from '../../assets/redberry-logo.svg';
 import redberryAgency from '../../assets/home-page-logo.svg';
+import { useNavigate } from 'react-router-dom';
 const HomePage = () => {
+    const Router = useNavigate();
+    
+
   return (
     <div className='home-page-wrapper'>
         <img src={backgroundImg} alt='bg image'/>
@@ -14,7 +18,7 @@ const HomePage = () => {
             </div>
         </div>
 
-        <button>რეზიუმეს დამატება</button>
+        <button onClick={() => Router('/personal-information')}>რეზიუმეს დამატება</button>
     </div>
   )
 }
